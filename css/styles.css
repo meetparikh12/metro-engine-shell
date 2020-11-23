@@ -1,0 +1,141 @@
+body {
+    background: linear-gradient(145deg, #000, #141414);
+}
+.sidebar {
+    width: 250px;
+}
+.main-section {
+    width: inherit;
+    background-color: #E6F5FA !important;
+}
+.logo-section {
+    width: inherit;
+}
+.logo-section .project-logo {
+    width: inherit;
+    height: 120px;
+    object-fit: cover;
+}
+hr {
+    margin: 1px 10px !important;
+    border: 0;
+    border-top: 2px solid #141414;
+}
+.menu-section {
+    padding: 10px 0 !important;
+}
+.menu-section .navbar {
+    justify-content: center;
+    padding: 0px !important;
+}
+.menu-section .navbar .nav-item {
+    text-align: center;
+    text-transform: uppercase;
+}
+.menu-section .navbar .nav-item .nav-link {
+    padding: 2.5px !important;
+    color: rgba(0,0,0,0.9);
+}
+.register-form-section {
+    padding: 0px !important;
+}
+.section-title {
+    font-size: 1em;
+    text-align: center;
+    margin-top: 0.5rem;
+    color: rgba(0,0,0,0.6);
+}
+.register-form-section .interest-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+.register-form-section .interest-form .form-group {
+    margin-bottom: 0 !important;
+}
+.register-form-section .interest-form .form-group .input-field {
+    background-color: #D5EEF5;
+    border: none;
+    text-align: center;
+}
+.register-form-section .interest-form .form-group .form-control {
+    height: auto;
+    width: 225px;
+    font-size: 0.9rem;
+}
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+button:focus {
+    box-shadow: none !important;
+}
+.register-form-section .interest-form .form-group .btn-submit {
+    height: auto;
+    background-color: white;
+}
+.register-form-section .interest-form .dropdown .btn-dropdown {
+    background-color: #D5EEF5;
+    height: auto;
+    width: 225px;
+    font-size: 0.9rem;
+}
+.map-section {
+    padding-bottom: 10px;
+}
+.map-section .timings-title {
+    font-size: 0.75rem;
+}
+.map-section .address {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.map-section .map {
+    width: 225px;
+    height: 120px;
+    background-color: lightslategrey;
+    margin: auto;
+}
+.map-section .site-address {
+    font-weight: 500;
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+}
+.map-section .underline {
+    width: 40px;
+    margin: 5px auto;
+    border-top: 1px solid black;
+}
+.map-section .more-info {
+    font-size: 0.75rem;
+}
+.map-section .contact-info {
+    font-weight: 500;
+}
+.profile-listing-section {
+    background-color: rgb(199, 158, 125);
+    padding-bottom: 1rem;
+}
+.profile-listing-section .fa-arrow-up {
+    padding: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+}
+.profile-listing-section .profile-card {
+    border: 1px solid white;
+    margin: 8px 0px;
+    padding: 8px;
+    border-radius: 6px;
+}
+.profile-listing-section .profile-card .user-name {
+    text-align: left;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+}
+.profile-listing-section .profile-card .listing-icons {
+    justify-content: space-between;
+    display: flex;
+}
